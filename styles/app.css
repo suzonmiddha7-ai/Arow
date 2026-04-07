@@ -1,0 +1,59 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #70a333;
+}
+
+#home-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#home-title img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+#home-title h1 {
+    font-size: 3.7rem;
+}
+
+#home span {
+    width: 100%;
+    max-width: 25rem;
+    font-size: 1.2rem;
+}
+
+#count-btn {
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #70a333;
+    color: #effcdf;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#count-btn:hover {
+    background-color: #66952d;
+}
+
+#count-btn:active {
+    transform: scale(0.95);
+    background-color: #4d6f1b;
+}
+
+#theme-btn {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    border: none;
+    background-color: transparent;
+    color: #70a333;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
